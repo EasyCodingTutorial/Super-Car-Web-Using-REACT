@@ -1,0 +1,31 @@
+@import "../../App.css";
+
+.popular {
+  margin-bottom: 200px;
+}
+.popular .row {
+  margin: 100px auto;
+}
+.popular img {
+  height: 450px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  cursor: pointer;
+}
+.popular .box {
+  overflow: hidden;
+}
+.popular .box img:hover {
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.popular .col-sm-5 h6 {
+  font-weight: 600;
+  font-size: 40px;
+  margin: 20px auto;
+}
+.popular .col-sm-5 p {
+  font-size: 14px;
+  margin: 20px auto;
+}

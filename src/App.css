@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,400;1,500&display=swap");
+/* Global Variable */
+:root {
+  --main: #f10722;
+  --black: #000;
+  --white: #fff;
+  --font_family: "Besley", serif;
+}
+
+* {
+  font-family: var(--font_family);
+  transition: 0.3s;
+}
+*::selection {
+  background: var(--main);
+  color: var(--white) !important;
+}
+.btn {
+  width: 150px;
+  background: var(--main);
+  color: var(--white) !important;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+.btn:hover {
+  letter-spacing: 2px;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-thumb {
+  background: var(--main);
+}
+html::-webkit-scrollbar-track {
+  background: var(--black);
+}
+.btn:hover::after {
+  width: 100%;
+}

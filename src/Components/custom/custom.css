@@ -1,0 +1,20 @@
+@import "../../App.css";
+
+.custom {
+  margin-bottom: 200px;
+}
+.custom img {
+  height: 400px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  overflow: hidden;
+  cursor: pointer;
+}
+.custom .mid {
+  margin-top: 100px;
+}
+.custom img:hover {
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
